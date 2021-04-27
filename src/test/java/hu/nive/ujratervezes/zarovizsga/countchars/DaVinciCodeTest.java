@@ -1,4 +1,3 @@
-/*
 package hu.nive.ujratervezes.zarovizsga.countchars;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -59,4 +58,4 @@ class DaVinciCodeTest {
         assertThrows(IllegalArgumentException.class, () -> daVinciCode.encode(input,'D'));
     }
 
-}*/
+}
