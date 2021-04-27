@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS house_points (
+                    house_name VARCHAR(255),
+                    student_name VARCHAR(255),
+                    points_earned INT
+                    );
+
+
+
+INSERT INTO house_points VALUES ('Gryffindor', 'Harry Potter', 10),
+('Gryffindor', 'Ginny Weasley', 20),
+('Slytherin', 'Draco Malfoy', 5),
+('Hufflepuff', 'Cedric Diggory', 15),
+('Ravenclaw', 'Luna Lovegood', 50);
