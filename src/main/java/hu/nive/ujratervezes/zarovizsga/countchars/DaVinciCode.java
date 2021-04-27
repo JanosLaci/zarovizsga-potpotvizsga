@@ -29,7 +29,9 @@ public class DaVinciCode {
                 for (char element :
                         line.toCharArray()) {
                     //System.out.print(element);
-                    if (element==inputChar) charCounter +=1;
+                    //if (element==inputChar) charCounter +=1;
+                    //if (element==inputChar) charCounter  ++  is jó;
+                    if (element==inputChar) charCounter++;
                 }
 
             }
